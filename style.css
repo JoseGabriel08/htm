@@ -1,0 +1,121 @@
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.ex-manteni {
+    color: rgb(1, 1, 1);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.topnav {
+    overflow: hidden;
+    background: linear-gradient(80deg, rgb(14, 37, 73), rgb(121, 11, 155), rgb(9, 55, 118));
+    border-radius: 50px;
+}
+
+.topnav a {
+    display: inline;
+    color: rgb(255, 255, 255);
+    margin-left: 10rem;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav :hover {
+    background-color: #4e1976;
+    color: rgb(10, 10, 10);
+}
+
+.topnav a.active {
+    color: rgb(249, 249, 249);
+    text-align: center;
+}
+
+.contenedors {
+	width: 97%;
+	max-width:1000px;
+	margin: auto;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#button1 {
+    background-color: #fcfcfc;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(7, 23, 103);
+}
+
+.softwares {
+    color: rgb(0, 0, 0);
+}
+
+#logo {
+    display: inline;
+}
+
+#logo:hover {
+    transition-duration: .9s;
+}
+
+#button2 {
+    border-radius: 50px;
+    text-decoration: none;
+        padding: 2px;
+    color: rgb(94, 62, 62);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#button2:hover{
+    color: #600404;
+    transition-duration: .9s;
+}
+
+#button3 {
+    margin-left: 300px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(21, 91, 153);
+}
+
+#button3:hover{
+    background-color: silver;
+    color: #090657;
+    transition-duration: .9s;
+}
+
+footer {
+    height: 90px;
+    width: 1250px;
+    color: floralwhite;
+    background: linear-gradient(90deg, rgb(29, 61, 134), rgb(102, 19, 134), rgb(4, 48, 118));
+    text-align: center;
+    border: solid rgb(0, 8, 72) 3px;
+    border-radius: 40px;
+    margin-top: 9px;
+}
+
+.btn {
+    margin-top: 1px;
+}
+
+.img3 {
+    margin-left: 430px;
+}
+
