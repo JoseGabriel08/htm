@@ -11,26 +11,33 @@
 
     <section>    
         
-        <h1><cite><q>Formulario para Design Soft</q></cite></h1>
+        <h1><cite><q>Formulario de Trabajo para Design Soft</q></cite></h1>
 
     <div class="paper"><strong>
 
         <form action="https://formsubmit.co/gabrielpetez02@gmail.com" method="post">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="Nombre" name="nombre" required placeholder="Name"><br><br>
-    
-    
+            <input type="text" id="Nombre" name="nombre" required placeholder="Ingrese su nombre"><br><br>
+            
             <label for="email" class="email">Correo electronico</label>
             <input type="email" id="email" name="email" required placeholder="mail@example"><br><br>
 
             <label for="number">Numero:</label>
-            <input type="number" id="number" name="Numero" required placeholder="Numero"><br><br>
+            <input type="number" id="number" name="Numero" required placeholder="Ingrese su numero"><br><br>
     
-            <label for="mensaje">Mensaje</label>
+            <label for="mensaje">Asunto</label>
             <textarea id="mensaje" name="mensaje" rows="4" required minlength="1" maxlength="100"
             placeholder="Solo texto"></textarea><br><br>
     
-            <input class="btn" type="submit" value="Enviar"> 
+            <input class="btn" type="submit" value="Enviar"
+            button onclick="alertar('¿Esta seguro de enviar este correo?');">
+                
+              </button>
+              <script type="text/javascript">
+                  function alertar(texto) {
+                     alert(texto);
+                  }
+              </script>
 
         </form>
   
@@ -38,6 +45,8 @@
     </div>
         </section>
     </strong>
+    
+    <a class="button7" href="/index.html">Regresar</a>
 
 </body>
 

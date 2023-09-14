@@ -78,12 +78,12 @@ h3 {
     border-radius: 50px;
     text-decoration: none;
         padding: 2px;
-    color: rgb(94, 62, 62);
+    color: rgb(126, 28, 28);
     font-family: 'Times New Roman', Times, serif;
 }
 
 #button2:hover{
-    color: #600404;
+    color: #6a0d0d;
     transition-duration: .9s;
 }
 

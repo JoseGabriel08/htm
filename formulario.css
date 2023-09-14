@@ -7,8 +7,12 @@ body h1 {
     background: linear-gradient(90deg, rgb(164, 11, 184), rgb(255, 22, 61), rgb(115, 2, 138));
 }
 
+body {
+    background-color: rgb(66, 7, 57);
+}
+
 section {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(66, 7, 57);
     margin: 0 auto;
 }
 
@@ -18,7 +22,7 @@ section {
     box-shadow: black;
 }
 
-input[type="email"]:valid {
+input[type="email"]:valid { 
     border-color: rgb(0, 255, 0);
 }
 
@@ -64,4 +68,55 @@ footer {
     transform: scale(1.1);
     background: linear-gradient(40deg, rgb(185, 17, 207), rgb(195, 19, 49), rgb(163, 17, 193));
 }
+
+.button7 {
+    color: white;
+    text-decoration: none;
+    background: rgb(100, 42, 42);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 2rem;
+    top: 29px;
+}
+
+.button7:hover {
+    background: rgb(120, 20, 20);
+    transform: scale(11);
+}
+
+.button7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        red, blue, deeppink, blue,
+         red, blue, deeppink, blue
+    );
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite
+}
+
+@keyframes glowing {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
 
